@@ -140,7 +140,7 @@ function printWorkout(workout){
       set += "<br>" +  workout[i]["reps"] + " " + workout[i]["name"];
       i += 2;
       set += "<br>" + workout[i]["reps"] + " " + workout[i]["name"] + "}";
-      set += "<br>"
+      set += "<br>" + " "
       set += "<br>"
       i +=(+workout[i]["rnds"] * 4 - 3);
 
