@@ -141,6 +141,7 @@ function printWorkout(workout){
       i += 2;
       set += "<br>" + workout[i]["reps"] + " " + workout[i]["name"] + "}";
       set += "<br>"
+      set += "<br>"
       i +=(+workout[i]["rnds"] * 4 - 3);
 
     } else if (workout[i]["name"] !== "Rest") {
