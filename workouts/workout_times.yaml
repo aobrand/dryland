@@ -1,7 +1,7 @@
 workout_list:
   # Morning Workout
   - workout:
-      time: "21:00"
+      time: "18:00"
       days:
         - Sunday
         - Monday
@@ -14,7 +14,7 @@ workout_list:
 
   # Afternoon Workout
   - workout:
-      time: "18:30"
+      time: "18:00"
       days:
         - Monday
         - Tuesday
