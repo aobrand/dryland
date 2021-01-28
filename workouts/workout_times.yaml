@@ -14,7 +14,7 @@ workout_list:
 
   # Afternoon Workout
   - workout:
-      time: "10:45"
+      time: "22:45"
       days:
         - Monday
         - Tuesday
