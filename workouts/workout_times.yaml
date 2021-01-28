@@ -21,6 +21,8 @@ workout_list:
         - Wednesday
         - Thursday
         - Saturday
+        - Sunday
+        - Friday
       type: full_body
 
   # Friday Happy Hour Workout
