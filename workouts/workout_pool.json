@@ -41,21 +41,21 @@
      "rest":"15",
      "reps":"20"},
 
-    {"name":"Inverted Row",
+    {"name":"Band Bicep Curls",
      "type":"main_up",
      "rnds":"3",
      "intr":"30",
      "rest":"15",
      "reps":"20"},
 
-    {"name":"Human Pullover",
+    {"name":"Band Lateral Raises",
      "type":"main_up",
      "rnds":"3",
      "intr":"30",
      "rest":"15",
      "reps":"10"},
 
-    {"name":"Pull Cords",
+    {"name":"Miniband External Rotations",
      "type":"main_up",
      "rnds":"3",
      "intr":"40",
@@ -359,7 +359,7 @@
      "rest":"15",
      "reps":":20"},
 
-    {"name":"SL Reach and Jump",
+    {"name":"RDLs",
      "type":"main_lo",
      "rnds":"3",
      "intr":"40",
