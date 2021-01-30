@@ -31,7 +31,7 @@ core_framework = [["warmup_ab"],
              ["main_ob"],
              ["main_ab"],
              ["big_bertha"],
-             ["main_ob"],
+             ["side_crunch"],
              ]
 
 WORKOUT_POOL = "./workout_pool.json"

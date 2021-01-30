@@ -178,7 +178,7 @@
      "reps":":45"},
 
     {"name":"Side Crunches",
-     "type":"main_ob",
+     "type":"side_crunch",
      "rnds":"4",
      "intr":"35",
      "rest":"15",
