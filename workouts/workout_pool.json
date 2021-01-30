@@ -261,12 +261,12 @@
      "rest":"15",
      "reps":"15"},
 
-    {"name":"Take a shot",
+    {"name":"Pushups",
      "type":"power_hour",
-     "rnds":"60",
-     "intr":"60",
-     "rest":"15",
-     "reps":""},
+     "rnds":"10",
+     "intr":"20",
+     "rest":"20",
+     "reps":"10"},
 
     {"name":"Lateral Lunges",
      "type":"warmup_lo",
@@ -365,5 +365,6 @@
      "intr":"40",
      "rest":"15",
      "reps":"20"}
+
 
 ]
