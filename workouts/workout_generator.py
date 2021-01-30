@@ -48,12 +48,6 @@ def generateWorkout(workout_type):
         for i in range(int(p_hr["rnds"])):
             workout.append(p_hr)
         return workout
-    
-    if workout_type =="pushups":
-        push = workout_data[-16]
-        for i in range(int(push["rnds"])):
-            workout.append(push)
-        return workout
 
     rest = {"name":"Rest", "intr":10, "reps":10}
     for exercise in range(len(framework)):
