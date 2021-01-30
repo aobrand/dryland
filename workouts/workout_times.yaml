@@ -13,7 +13,7 @@ workout_list:
 
   # Core
   - workout:
-      time: "11:00"
+      time: "10:00"
       days:
         - Sunday
         - Monday
