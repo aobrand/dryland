@@ -1,7 +1,7 @@
 workout_list:
-  # Morning Workout
+  # Core Workout
   - workout:
-      time: "15:00"
+      time: "11:00"
       days:
         - Sunday
         - Monday
@@ -12,21 +12,26 @@ workout_list:
         - Saturday
       type: core
 
-  # Afternoon Workout
+  # Full Body Workout
   - workout:
-      time: "22:45"
+      time: "3:30"
       days:
         - Monday
         - Tuesday
         - Wednesday
         - Thursday
-        - Saturday
-        - Sunday
         - Friday
+        - Saturday
       type: full_body
 
+  # Friday Happy Hour Workout
+  - workout:
+      time: "3:30"
+      days:
+        - Sunday
+      type: full_body
 
-  # Power Hour
+# Power Hour
   - workout:
       time: "22:00"
       days:
