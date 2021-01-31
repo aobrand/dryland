@@ -44,7 +44,7 @@ def generateWorkout(workout_type):
     workout = []
     framework = full_body_framework if workout_type=="full_body" else core_framework
     if workout_type =="power_hour":
-        p_hr = workout_data[-16]
+        p_hr = workout_data[-15]
         for i in range(int(p_hr["rnds"])):
             workout.append(p_hr)
         return workout
