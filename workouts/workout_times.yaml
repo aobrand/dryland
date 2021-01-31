@@ -1,4 +1,5 @@
 workout_list:
+
   # Pushups
   - workout:
       time: "10:00"
@@ -45,16 +46,5 @@ workout_list:
    #     - Sunday
   #    type: full_body
 
-# Pushups
-  - workout:
-      time: "10:00"
-      days:
-        - Sunday
-        - Monday
-        - Tuesday
-        - Wednesday
-        - Thursday
-        - Friday
-        - Saturday
-      type: power_hour
+
 
