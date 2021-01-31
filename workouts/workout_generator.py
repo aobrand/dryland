@@ -46,6 +46,7 @@ def generateWorkout(workout_type):
     if workout_type =="power_hour":
         p_hr = workout_data[-15]
         for i in range(int(p_hr["rnds"])):
+            workout.append(workout_data[-15][-2])
             workout.append(p_hr)
         return workout
 
