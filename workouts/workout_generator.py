@@ -47,7 +47,7 @@ def generateWorkout(workout_type):
         p_hr = workout_data[-15]
         for i in range(int(p_hr["rnds"])):
             workout.append(p_hr)
-            workout.append({'name': 'Rest', 'intr': '15', 'reps': ':15'})
+            workout.append({'name': 'Rest', 'intr': '30', 'reps': ':10'})
         return workout
 
     rest = {"name":"Rest", "intr":10, "reps":10}
