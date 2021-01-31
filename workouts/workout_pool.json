@@ -263,7 +263,7 @@
 
     {"name":"Pushups",
      "type":"power_hour",
-     "rnds":"100",
+     "rnds":"10",
      "intr":"20",
      "rest":"20",
      "reps":"10"},
