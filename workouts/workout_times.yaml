@@ -2,7 +2,7 @@ workout_list:
 
   # Pushups
   - workout:
-      time: "8:30"
+      time: "8:46"
       days:
         - Sunday
         - Monday
