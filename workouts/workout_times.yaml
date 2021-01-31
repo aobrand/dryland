@@ -1,5 +1,21 @@
 workout_list:
 
+
+# Weekday Full
+  - workout:
+      time: "3:00"
+      days:
+        - Monday
+        - Tuesday
+        - Wednesday
+        - Thursday
+        - Friday
+        - Saturday
+        - Sunday
+      type: full_body
+
+
+
   # Pushups
   - workout:
       time: "8:45"
@@ -13,18 +29,9 @@ workout_list:
         - Saturday
       type: power_hour
 
-# Weekday Full
-  - workout:
-      time: "23:00"
-      days:
-        - Monday
-        - Tuesday
-        - Wednesday
-        - Thursday
-        - Friday
-        - Saturday
-        - Sunday
-      type: full_body
+
+
+
 
   # Core
   #- workout:
@@ -41,7 +48,7 @@ workout_list:
 
   # Friday Happy Hour Workout
   #- workout:
-   #   time: "23:00"
+   #   time: "3:00"
    #   days:
    #     - Sunday
   #    type: full_body
