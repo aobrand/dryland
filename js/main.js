@@ -29,7 +29,7 @@ function init(current_utc_time){
     }
   }
   if (!workout_exists){
-    document.getElementById("set").innerHTML = "No New Workout Scheduled!";
+    document.getElementById("set").innerHTML = "No New Workout Scheduled";
     return;
   }
   document.getElementById("next_workout").addEventListener("click", function(){printWorkout(workout)});
@@ -85,7 +85,7 @@ function startWorkout(workout, current_set, current_set_time){
         }else if (+current_set + 1 < workout.length){
           document.getElementById("next").innerHTML = "Up Next: " + workout[+current_set+1]["reps"] + " " + workout[+current_set+1]["name"];
         }else{
-          document.getElementById("next").innerHTML = "Up Next: Workout Completed!! :D";
+          document.getElementById("next").innerHTML = "Up Next: Workout Completed!";
         }
       }else{
         clearInterval(cnt);
