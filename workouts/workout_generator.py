@@ -20,7 +20,7 @@ full_body_framework = [["warmup_lo", "warmup_up"],
              ["main_ob"],
              ["main_ab"],
              ["big_bertha"],
-             ["main_ob"],
+             ["side_crunch"],
              ]
 core_framework = [["warmup_ab"],
              ["main_ob"],
