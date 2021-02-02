@@ -89,7 +89,7 @@ function startWorkout(workout, current_set, current_set_time){
         }
       }else{
         clearInterval(cnt);
-        document.getElementById("set").innerHTML = "Workout Completed!! :D";
+        document.getElementById("set").innerHTML = "Workout Completed!";
         document.getElementById("timer").innerHTML = "";
         document.getElementById("next").innerHTML = "";
         workoutCompleted();
