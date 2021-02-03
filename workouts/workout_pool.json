@@ -282,12 +282,12 @@
      "rest":"15",
      "reps":":30"},
 
-    {"name":"Straight Leg Bicycle Crunches",
+    {"name":"Hip Ups",
      "type":"main_ob",
      "rnds":"4",
      "intr":"40",
      "rest":"15",
-     "reps":"30"},
+     "reps":"15"},
 
     {"name":"Mountain Climbers",
      "type":"main_up",
@@ -303,7 +303,7 @@
      "rest":"15",
      "reps":"10 each side"},
 
-    {"name":"Reverse Cruches",
+    {"name":"Reverse Crunches",
      "type":"main_ab",
      "rnds":"4",
      "intr":"45",
