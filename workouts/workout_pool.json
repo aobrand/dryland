@@ -247,12 +247,12 @@
      "rest":"15",
      "reps":"1:00"},
 
-    {"name":"Leg Lifts",
+    {"name":"Dead Bugs",
      "type":"rest_ab",
      "rnds":"2",
      "intr":"30",
      "rest":"15",
-     "reps":"30"},
+     "reps":":30"},
 
     {"name":"Windmills",
      "type":"main_ob",
