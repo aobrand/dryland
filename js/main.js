@@ -102,7 +102,7 @@ function startWorkout(workout, current_set, current_set_time){
 
 
 function startCountdown(workout, workout_date){
-  document.getElementById("set").innerHTML = "next workout in"
+//   document.getElementById("set").innerHTML = "next workout in"
   var workout_time = workout_date.getTime();
   const countdown = async () => {
     const response = await fetch('https://worldtimeapi.org/api/timezone/America/Argentina/Salta');
@@ -118,8 +118,8 @@ function startCountdown(workout, workout_date){
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("timer").innerHTML = hours + "h "
-        + minutes + "m " + seconds + "s ";
+//         document.getElementById("timer").innerHTML = hours + "h "
+//         + minutes + "m " + seconds + "s ";
 
         if (distance < 0) {
           clearInterval(cnt);
