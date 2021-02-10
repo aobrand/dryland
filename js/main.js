@@ -91,7 +91,7 @@ function startWorkout(workout, current_set, current_set_time){
         }else if (+current_set + 2 < workout.length) {
           document.getElementById("next").innerHTML = "Up Next: " + workout[+current_set+1]["reps"] + " " + workout[+current_set+1]["name"];
           document.getElementById("after").innerHTML = "And Then: " + workout[+current_set+3]["reps"] + " " + workout[+current_set+3]["name"];
-        }else if (+current_set + 1 < workout.length){
+        }else if (+current_set + 1 < workout.length && workout[+current_set+1]["name"] != "Rest"){
           document.getElementById("next").innerHTML = "Up Next: " + workout[+current_set+1]["reps"] + " " + workout[+current_set+1]["name"];
         }else{
           document.getElementById("next").innerHTML = "Up Next: Workout Completed!";
