@@ -127,9 +127,14 @@ function startCountdown(workout, workout_date){
         var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-        document.getElementById("timer").innerHTML = hours + "h "
-        + minutes + "m " + seconds + "s ";
-
+        if (hours == 0 && minutes != 0) { 
+          document.getElementById("timer").innerHTML = minutes + "m " + seconds + "s ";
+        }else if (hours == 0 && minutes == 0) {
+           document.getElementById("timer").innerHTML = seconds + "s ";
+        }else {     
+           document.getElementById("timer").innerHTML = hours + "h " + minutes + "m " + seconds + "s ";
+        }
+      
         if (distance < 0) {
           clearInterval(cnt);
           startWorkout(workout, 0, workout[0]["intr"]);
