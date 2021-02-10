@@ -51,7 +51,7 @@ function init(current_utc_time){
     var hours = Math.floor((workout_total_time % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((workout_total_time % (1000 * 60 * 60)) / (1000 * 60));
     var seconds = Math.floor((workout_total_time % (1000 * 60)) / 1000);
-    document.getElementById("next").innerHTML = "Next Workout Length: " + hours + "h "
+    document.getElementById("next").innerHTML = "duration: " + hours + "h "
         + minutes + "m " + seconds + "s ";
     startCountdown(workout, workout_date);
   }
@@ -102,7 +102,7 @@ function startWorkout(workout, current_set, current_set_time){
 
 
 function startCountdown(workout, workout_date){
-  document.getElementById("set").innerHTML = "Next Workout in:"
+  document.getElementById("set").innerHTML = "next workout in"
   var workout_time = workout_date.getTime();
   const countdown = async () => {
     const response = await fetch('https://worldtimeapi.org/api/timezone/America/Argentina/Salta');
