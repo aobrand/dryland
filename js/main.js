@@ -67,7 +67,7 @@ function startWorkout(workout, current_set, current_set_time){
   }else if (+current_set + 1 < workout.length){
     document.getElementById("next").innerHTML = "Up Next: " + workout[+current_set+1]["reps"] + " " + workout[+current_set+1]["name"];
   }else{
-    document.getElementById("next").innerHTML = "Up Next: Workout Completed!! :D";
+    document.getElementById("next").innerHTML = "Up Next: Workout Completed!";
   }
 
   var cnt = setInterval(function() {
