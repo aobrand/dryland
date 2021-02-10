@@ -61,12 +61,16 @@ function startWorkout(workout, current_set, current_set_time){
   var count = current_set_time;
   document.getElementById("set").innerHTML = workout[current_set]["reps"] + " " + workout[current_set]["name"];
   document.getElementById("timer").innerHTML = Math.floor(count);
-  if (+current_set + 2 < workout.length){
+  if (+current_set + 2 < workout.length && workout[+current_set]["name"] != "Rest") {
     document.getElementById("next").innerHTML = "Up Next: " + workout[+current_set+2]["reps"] + " " + workout[+current_set+2]["name"];
     document.getElementById("after").innerHTML = "Up Next: " + workout[+current_set+4]["reps"] + " " + workout[+current_set+4]["name"];
-//   }else if (+current_set + 1 < workout.length){
-//     document.getElementById("next").innerHTML = "Up Next: " + workout[+current_set+2]["reps"] + " " + workout[+current_set+2]["name"];
-//     document.getElementById("after").innerHTML = " ";
+  }else if (+current_set + 2 < workout.length && workout[+current_set]["name"] == "Rest") {
+    document.getElementById("next").innerHTML = "Up Next: " + workout[+current_set+1]["reps"] + " " + workout[+current_set+1]["name"];
+    document.getElementById("after").innerHTML = "Up Next: " + workout[+current_set+3]["reps"] + " " + workout[+current_set+3]["name"];
+      
+  }else if (+current_set + 1 < workout.length){
+    document.getElementById("next").innerHTML = "Up Next: " + workout[+current_set+1]["reps"] + " " + workout[+current_set+1]["name"];
+    document.getElementById("after").innerHTML = " ";
   }else{
     document.getElementById("next").innerHTML = "Up Next: Workout Completed!";
     document.getElementById("after").innerHTML = " ";
