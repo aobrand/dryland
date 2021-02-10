@@ -72,7 +72,7 @@ function startWorkout(workout, current_set, current_set_time){
 
   var cnt = setInterval(function() {
     count --;
-    if (count < 0) {
+    if (count == 0) {
       document.getElementById('ding').play();
       if (+current_set + 1 < workout.length){
         current_set = +current_set+1;
