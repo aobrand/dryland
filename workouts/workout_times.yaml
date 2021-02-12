@@ -3,7 +3,7 @@ workout_list:
 
 # Weekday Full
   - workout:
-      time: "6:00"
+      time: "9:00"
       days:
         - Monday
         - Tuesday
@@ -18,7 +18,7 @@ workout_list:
 
   # Pushups
   - workout:
-      time: "10:00"
+      time: "10:30"
       days:
         - Sunday
         - Monday
