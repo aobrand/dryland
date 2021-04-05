@@ -3,7 +3,7 @@ workout_list:
 
 # Weekday Full
   - workout:
-      time: "9:00"
+      time: "23:00"
       days:
         - Monday
         - Tuesday
@@ -17,17 +17,17 @@ workout_list:
 
 
   # Pushups
-  - workout:
-      time: "10:30"
-      days:
-        - Sunday
-        - Monday
-        - Tuesday
-        - Wednesday
-        - Thursday
-        - Friday
-        - Saturday
-      type: power_hour
+  #- workout:
+  #    time: "10:30"
+  #    days:
+  #      - Sunday
+  #      - Monday
+  #      - Tuesday
+  #      - Wednesday
+  #     - Thursday
+  #      - Friday
+  #      - Saturday
+  #    type: power_hour
 
 
 
