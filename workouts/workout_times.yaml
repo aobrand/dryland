@@ -1,9 +1,9 @@
 workout_list:
 
 
-# Weekday Full
+#  Full
   - workout:
-      time: "23:00"
+      time: "8:30"
       days:
         - Monday
         - Tuesday
