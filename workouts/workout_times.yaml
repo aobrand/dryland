@@ -3,7 +3,7 @@ workout_list:
 
 #  Full
   - workout:
-      time: "21:30"
+      time: "18:27"
       days:
         - Monday
         - Tuesday
